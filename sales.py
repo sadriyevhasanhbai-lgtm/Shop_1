@@ -13,7 +13,6 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SALES_FILE = os.path.join(BASE_DIR, "sales.json")
 
 SALE_LIST = TypeAdapter(list[Sale])
-model
 
 def load_sales() -> list[Sale]:
     """Load sales from the JSON file (empty list on any problem)."""
